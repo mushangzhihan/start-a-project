@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/任务一：九宫格.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="UTF-8">
+    <title>九宫格</title>
+</head>
+<style type="text/css">
+    .boxes{
+        overflow: hidden;
+    }
+    .box{
+        width: 31%;
+        padding-bottom: 31%;
+        margin: 1%;
+        background-color: orange;
+        float:left;
+        border-radius: 10%;
+    }
+</style>
+<body>
+<div class="boxes">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>
